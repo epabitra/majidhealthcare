@@ -1,0 +1,24 @@
+.faq-section__inner {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: var(--space-9);
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .faq-section__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.faq-section .section-head {
+  margin-bottom: 0;
+  position: sticky;
+  top: 100px;
+}
+
+@media (max-width: 860px) {
+  .faq-section .section-head {
+    position: static;
+  }
+}

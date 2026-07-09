@@ -1,0 +1,38 @@
+.not-found {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-alt);
+}
+
+.not-found__inner {
+  text-align: center;
+  max-width: 480px;
+  padding-block: var(--space-9);
+}
+
+.not-found__code {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--color-primary-100);
+  line-height: 1;
+  margin-bottom: var(--space-4);
+}
+
+.not-found__inner h1 {
+  margin-bottom: var(--space-4);
+}
+
+.not-found__inner p {
+  margin-bottom: var(--space-7);
+}
+
+.not-found__actions {
+  display: flex;
+  gap: var(--space-4);
+  justify-content: center;
+  flex-wrap: wrap;
+}

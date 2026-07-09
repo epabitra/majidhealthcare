@@ -1,0 +1,64 @@
+:root {
+  /* Brand colors — sampled from the Majid Healthcare logo (deep green + gold) */
+  --color-primary-900: #0b3d28;
+  --color-primary-800: #114f34;
+  --color-primary-700: #166042;
+  --color-primary-600: #1c7350;
+  --color-primary-500: #22885f;
+  --color-primary-100: #e3f3ec;
+  --color-primary-50: #f2f9f6;
+
+  --color-accent-700: #b8860b;
+  --color-accent-600: #d4a017;
+  --color-accent-500: #f0b429;
+  --color-accent-400: #f5c451;
+  --color-accent-100: #fdf3dc;
+
+  --color-ink-900: #14201c;
+  --color-ink-700: #33443c;
+  --color-ink-500: #5b6d64;
+  --color-ink-300: #93a29a;
+  --color-ink-100: #d9e2dd;
+
+  --color-bg: #ffffff;
+  --color-bg-alt: #f6faf8;
+  --color-bg-muted: #eef4f1;
+  --color-border: #e1eae5;
+
+  --color-danger: #c0392b;
+  --color-success: #1c7350;
+  --color-white: #ffffff;
+
+  /* Typography */
+  --font-heading: 'Poppins', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.5rem;
+  --space-8: 3rem;
+  --space-9: 4rem;
+  --space-10: 5rem;
+  --space-11: 6.5rem;
+
+  /* Layout */
+  --container-width: 1200px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(11, 61, 40, 0.06);
+  --shadow-md: 0 10px 30px rgba(11, 61, 40, 0.1);
+  --shadow-lg: 0 20px 50px rgba(11, 61, 40, 0.16);
+
+  /* Motion */
+  --transition-fast: 160ms ease;
+  --transition-base: 260ms ease;
+}

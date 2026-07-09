@@ -1,0 +1,126 @@
+.appointment-layout {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: var(--space-9);
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .appointment-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+}
+
+@media (max-width: 560px) {
+  .appointment-form {
+    padding: var(--space-6) var(--space-5);
+  }
+}
+
+.appointment-form__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-5);
+}
+
+@media (max-width: 640px) {
+  .appointment-form__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.appointment-form .btn {
+  align-self: flex-start;
+}
+
+@media (max-width: 640px) {
+  .appointment-form .btn {
+    width: 100%;
+  }
+}
+
+.appointment-sidebar {
+  background: var(--color-primary-900);
+  color: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  position: sticky;
+  top: 110px;
+}
+
+@media (max-width: 900px) {
+  .appointment-sidebar {
+    position: static;
+  }
+}
+
+.appointment-sidebar h3 {
+  color: var(--color-white);
+  margin-bottom: var(--space-5);
+}
+
+.appointment-sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.appointment-sidebar li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.appointment-sidebar li svg {
+  color: var(--color-accent-400);
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.appointment-sidebar li a {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.appointment-sidebar li a:hover {
+  color: var(--color-accent-400);
+}
+
+.appointment-sidebar__note {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.appointment-success {
+  text-align: center;
+  max-width: 560px;
+  padding-block: var(--space-6);
+}
+
+.appointment-success__icon {
+  font-size: 3.5rem;
+  color: var(--color-primary-600);
+  margin-bottom: var(--space-5);
+}
+
+.appointment-success h2 {
+  margin-bottom: var(--space-4);
+}
+
+.appointment-success p {
+  margin-bottom: var(--space-5);
+}

@@ -1,0 +1,37 @@
+.mobile-cta {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .mobile-cta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 90;
+    box-shadow: 0 -6px 20px rgba(11, 61, 40, 0.15);
+  }
+
+  .mobile-cta__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    padding: var(--space-4);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.88rem;
+  }
+
+  .mobile-cta__btn--call {
+    background: var(--color-primary-800);
+    color: var(--color-white);
+  }
+
+  .mobile-cta__btn--book {
+    background: var(--color-accent-500);
+    color: var(--color-primary-900);
+  }
+}

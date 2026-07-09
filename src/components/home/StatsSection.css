@@ -1,0 +1,4 @@
+.stats-section {
+  background: var(--color-primary-900);
+  padding-block: var(--space-8);
+}

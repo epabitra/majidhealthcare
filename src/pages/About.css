@@ -1,0 +1,137 @@
+.about-story__inner {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: var(--space-9);
+  align-items: center;
+}
+
+@media (max-width: 860px) {
+  .about-story__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-story__media img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  aspect-ratio: 4 / 3.2;
+  object-fit: cover;
+}
+
+.about-story__content p {
+  margin-bottom: var(--space-4);
+}
+
+.about-story__badge {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-primary-50);
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  color: var(--color-primary-800);
+  font-weight: 500;
+}
+
+.about-story__badge svg {
+  color: var(--color-primary-600);
+  flex-shrink: 0;
+}
+
+.about-approach__grid {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+@media (max-width: 640px) {
+  .about-approach__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-approach__item {
+  display: flex;
+  gap: var(--space-4);
+  background: var(--color-white);
+  padding: var(--space-5) var(--space-6);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.about-approach__item svg {
+  color: var(--color-primary-600);
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.about-approach__item p {
+  font-size: 0.94rem;
+}
+
+.about-community__inner {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: var(--space-9);
+  align-items: center;
+}
+
+@media (max-width: 860px) {
+  .about-community__inner {
+    grid-template-columns: 1fr;
+    direction: initial;
+  }
+
+  .about-community__media {
+    order: -1;
+  }
+}
+
+.about-community__media img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.about-trust__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
+}
+
+@media (max-width: 640px) {
+  .about-trust__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-trust__card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  background: var(--color-white);
+  padding: var(--space-6);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.about-trust__card svg {
+  font-size: 1.8rem;
+  color: var(--color-accent-600);
+  flex-shrink: 0;
+}
+
+.about-trust__card h3 {
+  font-size: 1rem;
+  margin-bottom: var(--space-1);
+}
+
+.about-trust__card p {
+  font-size: 0.88rem;
+}
