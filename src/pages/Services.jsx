@@ -13,8 +13,8 @@ export default function Services() {
       <PageHero
         breadcrumb="Services"
         eyebrow="What We Treat"
-        title="Our Services"
-        description="Family medicine, diabetes care, and day-care diagnostics — every service we offer, in one place."
+        title="Comprehensive Diabetes Care & Preventive Health Services"
+        description="At Majid Healthcare, we provide structured diabetes care focused on blood sugar management, early detection of complications, preventive health, and long-term wellbeing."
       />
 
       <section className="section services-detail">
@@ -33,6 +33,20 @@ export default function Services() {
                   <div className="service-detail__body">
                     <h3>{service.title}</h3>
                     <p>{service.description}</p>
+                    {service.image && (
+                      <div className="service-detail__media">
+                        <img src={service.image} alt={service.imageAlt} loading="lazy" />
+                      </div>
+                    )}
+                    {service.equipment && (
+                      <div className="service-detail__equipment">
+                        {service.equipment.map((item) => (
+                          <span className="service-detail__equipment-tag" key={item}>
+                            {item}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </article>
               );
@@ -51,9 +65,8 @@ export default function Services() {
           <div className="services-notes">
             <InfoBanner>{clinicInfo.emergencyNote}</InfoBanner>
             <InfoBanner tone="info">
-              For current payment modes, insurance, or cashless treatment queries, please call the
-              clinic directly at {clinicInfo.phoneDisplay} — this can vary and is best confirmed
-              before your visit.
+              For information regarding payment options please contact our centre directly at{' '}
+              {clinicInfo.phoneDisplay} before your visit, as available options may vary.
             </InfoBanner>
           </div>
         </div>

@@ -5,21 +5,21 @@ import './WhyChooseUs.css';
 const points = [
   {
     icon: FaUserMd,
-    title: 'Internationally Trained Physician',
+    title: 'Internationally Trained Diabetologist',
     description:
-      'CMC Vellore family medicine diploma paired with a UK Fellowship in Diabetology — a rare, focused credential set for a neighbourhood clinic.',
+      'PG Diploma in Family Medicine from CMC Vellore paired with a UK Fellowship in Diabetology — a rare, focused credential set for a neighbourhood centre.',
   },
   {
     icon: FaClinicMedical,
-    title: 'Family Medicine + Diabetes, Under One Roof',
+    title: 'Complications Screened, Not Just Sugar Managed',
     description:
-      'One consultation covers everyday family health and specialised diabetes management, so you don’t need to juggle multiple clinics.',
+      'Structured assessments for diabetic foot, neuropathy, vascular health, and cardiovascular risk — so complications are caught early, not after they progress.',
   },
   {
     icon: FaHandHoldingMedical,
     title: 'Day-Care & Diagnostic Support',
     description:
-      'From minor procedures to on-site diagnostics, we handle more than a typical consultation-only clinic.',
+      'From advanced foot-care procedures to on-site diagnostics, we handle more than a typical consultation-only clinic.',
   },
   {
     icon: FaClock,
@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
         <SectionHeading
           eyebrow="Why Choose Us"
           title="Focused care, backed by real credentials"
-          description="Majid Healthcare isn't trying to be everything — it's built to do family medicine and diabetes care exceptionally well."
+          description="Majid Healthcare isn't trying to be everything — it's built to be a centre of excellence in diabetes care, done exceptionally well."
           center
         />
         <div className="grid why-choose__grid">

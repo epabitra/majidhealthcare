@@ -5,9 +5,9 @@
 export const clinicInfo = {
   name: 'Majid Healthcare',
   fullName: 'Majid Healthcare — Family Health & Diabetes Centre',
-  tagline: 'Your Comprehensive Family Health & Diabetes Care Destination',
+  tagline: 'Comprehensive Diabetes Care Beyond Blood Sugar.',
   shortDescription:
-    'A focused family medicine and diabetes care clinic in Kalyan West, led by Dr. Umair Musaddique Majid — offering OPD consultations, day-care diagnostics, and specialised diabetes management.',
+    'A dedicated diabetes care centre in Kalyan West, led by Dr. Umair M Majid — providing evidence-based diabetes management, advanced screening for diabetic complications, and personalised long-term care.',
   phone: '+91 99304 60918',
   phoneDisplay: '099304 60918',
   phoneHref: 'tel:+919930460918',
@@ -36,7 +36,7 @@ export const clinicInfo = {
     ) +
     '&output=embed',
   emergencyNote:
-    'Majid Healthcare is an OPD & day-care clinic and does not operate a 24×7 emergency or trauma unit. For medical emergencies, please go to your nearest hospital emergency department immediately.',
+    'Majid Healthcare is a specialized outpatient and day-care centre focused on diabetes care, preventive health, and planned medical services. We do not operate a 24×7 emergency or trauma facility. In case of a medical emergency, please visit the nearest hospital emergency department or call emergency services immediately.',
   pharmacy: {
     name: 'Majid Chemist & General Store',
     note: 'A partner chemist and general store is located right next door for your convenience.',

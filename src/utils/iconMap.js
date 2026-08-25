@@ -19,6 +19,8 @@ import {
   FaShieldAlt,
   FaHandHoldingMedical,
   FaAward,
+  FaWeight,
+  FaClipboardCheck,
 } from 'react-icons/fa';
 
 export const iconMap = {
@@ -42,6 +44,8 @@ export const iconMap = {
   FaShieldAlt,
   FaHandHoldingMedical,
   FaAward,
+  FaWeight,
+  FaClipboardCheck,
 };
 
 export default function resolveIcon(name) {

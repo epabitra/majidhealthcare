@@ -1,68 +1,89 @@
-// Services exactly as listed on the clinic's own storefront signage.
+import diabeticFootProcedureRoom from '../assets/images/clinic/diabetic-foot-procedure-room.jpg';
+import dayCareRoom from '../assets/images/clinic/day-care-room.jpg';
+
+// Services as redefined by the clinic for its diabetes-centre positioning.
 export const services = [
   {
-    id: 'family-opd',
-    icon: 'FaUserFriends',
-    title: 'Family OPD',
-    short: 'Outpatient consultations for every member of the family.',
+    id: 'diabetes-care',
+    icon: 'FaTint',
+    title: 'Diabetes Care',
+    short: 'Diagnosis through long-term follow-up, with medication and lifestyle guidance.',
     description:
-      'Comprehensive outpatient consultations for common illnesses, chronic conditions, and preventive check-ups — for every member of the family, from children to seniors.',
+      'Comprehensive diabetes management from diagnosis to long-term follow-up, including treatment planning, medication optimization, lifestyle guidance, and regular monitoring to help patients achieve better health outcomes.',
+  },
+  {
+    id: 'diabetes-complication-screening',
+    icon: 'FaClipboardCheck',
+    title: 'Diabetes Complication Screening',
+    short: 'Structured assessments to catch diabetes-related complications early.',
+    description:
+      'Early identification of diabetes-related complications through structured assessments for neuropathy, vascular health, cardiovascular risk, and other diabetes-associated concerns.',
+  },
+  {
+    id: 'diabetic-foot-care-limb-protection',
+    icon: 'FaShoePrints',
+    title: 'Diabetic Foot Care & Limb Protection',
+    short: 'Foot examination, neuropathy testing, doppler & scanning to protect mobility.',
+    description:
+      'Specialized diabetic foot evaluation focused on preventing complications and protecting mobility. Services include diabetic foot examination, sensory neuropathy assessment, vibration perception testing, lower limb arterial Doppler, and advanced foot scanning.',
+    image: diabeticFootProcedureRoom,
+    imageAlt: 'Diabetic foot care procedure room at Majid Healthcare',
+    equipment: [
+      'Lower Limb Automatic Arterial Doppler',
+      'HCP Foot Sensory Test',
+      'VPT Diabetic Neuropathy Test',
+      'Foot Scanner',
+    ],
+  },
+  {
+    id: 'lifestyle-disease-management',
+    icon: 'FaWeight',
+    title: 'Lifestyle Disease Management',
+    short: 'Managing hypertension, obesity, thyroid and metabolic conditions.',
+    description:
+      'Comprehensive management of conditions commonly associated with diabetes, including hypertension, obesity, thyroid disorders, and metabolic health concerns.',
   },
   {
     id: 'day-care-services',
     icon: 'FaProcedures',
     title: 'Day Care Services',
-    short: 'Same-day treatments that don’t need overnight admission.',
+    short: 'Short-stay care and procedures without overnight admission.',
     description:
-      'Same-day / short-stay care for minor procedures and treatments that are completed within a few hours, without the need for overnight hospital admission.',
+      'Short-stay medical care for selected treatments, observation, procedures, and supportive therapies without overnight hospital admission.',
+    image: dayCareRoom,
+    imageAlt: 'Day Care Room at Majid Healthcare',
   },
   {
-    id: 'diabetes-care',
-    icon: 'FaTint',
-    title: 'Diabetes Care',
-    short: 'Ongoing diabetes management guided by UK fellowship training.',
-    description:
-      'Structured, ongoing diabetes management and monitoring — from initial diagnosis to long-term control — guided by Dr. Majid’s Fellowship in Diabetology from the Royal Liverpool Academy, UK.',
-  },
-  {
-    id: 'diabetic-foot-care',
-    icon: 'FaShoePrints',
-    title: 'Diabetes Foot Care',
-    short: 'Neuropathy & doppler screening to catch complications early.',
-    description:
-      'Dedicated diabetic foot examinations — including sensory neuropathy testing and doppler screening — designed to catch complications early, before they become serious.',
-  },
-  {
-    id: 'minor-surgical-wound-care',
-    icon: 'FaBandAid',
-    title: 'Minor Surgical Procedures & Wound Care',
-    short: 'In-clinic minor procedures and professional wound dressing.',
-    description:
-      'In-clinic minor surgical procedures along with professional wound assessment, dressing, and follow-up care.',
-  },
-  {
-    id: 'diagnostics',
+    id: 'diagnostic-health-assessment',
     icon: 'FaVials',
-    title: 'Diagnostic Services',
-    short: 'On-site day-care diagnostics and screening tests.',
+    title: 'Diagnostic & Health Assessment Services',
+    short: 'ECG, diabetes monitoring, and coordinated lab testing.',
     description:
-      'On-site day-care diagnostics, from routine health screening to targeted tests that support diagnosis and ongoing diabetes monitoring.',
+      'Essential diagnostic support including ECG, diabetes monitoring investigations, preventive health assessments, and coordinated laboratory testing through trusted diagnostic partners.',
   },
   {
-    id: 'diet-nutrition',
+    id: 'nutrition-lifestyle-guidance',
     icon: 'FaAppleAlt',
-    title: 'Diet & Nutrition',
-    short: 'Personalised dietary guidance for diabetes and family wellness.',
+    title: 'Nutrition & Lifestyle Guidance',
+    short: 'Personalised diet and lifestyle counselling for sustainable results.',
     description:
-      'Personalised dietary guidance to support diabetes management, weight control, and overall family wellness — tailored to each patient’s condition and lifestyle.',
+      'Personalized diet and lifestyle counselling to support diabetes management, weight control, and sustainable long-term health improvement.',
   },
   {
-    id: 'teleconsultation',
-    icon: 'FaVideo',
-    title: 'Teleconsultation',
-    short: 'Consult Dr. Majid remotely by phone or video.',
+    id: 'general-preventive-healthcare',
+    icon: 'FaClinicMedical',
+    title: 'General & Preventive Healthcare',
+    short: 'Outpatient consultations for everyday and preventive health needs.',
     description:
-      'Consult Dr. Majid remotely by phone or video call when an in-person visit isn’t possible — ideal for routine follow-ups and quick medical queries.',
+      'Outpatient consultations for common health concerns, preventive health needs, and ongoing management of general medical conditions.',
+  },
+  {
+    id: 'teleconsultation-followup-care',
+    icon: 'FaVideo',
+    title: 'Teleconsultation & Follow-up Care',
+    short: 'Remote consultations for routine follow-ups and treatment reviews.',
+    description:
+      'Convenient remote consultations for routine follow-ups, treatment reviews, and continued support for ongoing health management.',
   },
 ];
 

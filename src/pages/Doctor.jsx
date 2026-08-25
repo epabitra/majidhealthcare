@@ -5,7 +5,7 @@ import Button from '../components/common/Button';
 import CtaBanner from '../components/common/CtaBanner';
 import { doctor } from '../data/doctor';
 import { clinicInfo } from '../data/clinicInfo';
-import doctorRoomImg from '../assets/images/clinic/patient-waiting-area.webp';
+import careExperienceImg from '../assets/images/clinic/day-care-room.jpg';
 import './Doctor.css';
 
 export default function Doctor() {
@@ -27,6 +27,7 @@ export default function Doctor() {
               </div>
               <h3>{doctor.name}</h3>
               <p className="doctor-card__title">{doctor.title}</p>
+              <p className="doctor-card__founder">{doctor.founderTitle}</p>
               <ul className="doctor-card__facts">
                 <li>
                   <FaStethoscope aria-hidden="true" /> {doctor.experienceYears}+ years of
@@ -78,13 +79,18 @@ export default function Doctor() {
 
       <section className="section-alt section doctor-gallery-note">
         <div className="container doctor-gallery-note__inner">
-          <img src={doctorRoomImg} alt="Consultation area at Majid Healthcare" />
+          <img src={careExperienceImg} alt="Day Care Room at Majid Healthcare, Kalyan West" />
           <div>
             <SectionHeading
-              eyebrow="Where You'll Be Seen"
-              title="A calm, well-organised consultation space"
-              description="Every consultation takes place at the Majid Healthcare clinic in Kalyan West, where diagnostic support and day-care facilities are available on-site."
+              eyebrow="Your Care Experience"
+              title="A Dedicated Space for Comprehensive Diabetes Care"
+              description="Every consultation takes place at Majid Healthcare – Family Health & Diabetes Centre, Kalyan West, a dedicated healthcare facility designed to provide structured diabetes management, complication screening, and day-care support in a comfortable and patient-focused environment."
             />
+            <p>
+              With consultation services, advanced diabetes assessment facilities, diagnostics,
+              and day-care support available under one roof, we aim to make diabetes care more
+              convenient, coordinated, and comprehensive.
+            </p>
           </div>
         </div>
       </section>

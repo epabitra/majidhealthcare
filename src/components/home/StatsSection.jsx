@@ -3,7 +3,7 @@ import './StatsSection.css';
 
 const stats = [
   { value: '9+', label: 'Years of Clinical Experience' },
-  { value: '8', label: 'Core Clinical Services' },
+  { value: '9', label: 'Core Clinical Services' },
   { value: '5.0★', label: 'Google Patient Rating' },
   { value: '6', label: 'Days of OPD Every Week' },
 ];

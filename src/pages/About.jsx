@@ -9,10 +9,26 @@ import communityImg from '../assets/images/gallery/community-health-camp.webp';
 import './About.css';
 
 const approachPoints = [
-  'Family medicine and diabetes care delivered by the same physician, so your history is never lost between visits.',
-  'Same-day diagnostics and day-care procedures to reduce unnecessary referrals for routine needs.',
-  'Two OPD sessions a day, six days a week, built around working patients’ schedules.',
-  'Honest, focused care — we tell you clearly when something is beyond our scope and needs a specialist referral.',
+  {
+    title: 'Personalized diabetes management',
+    description:
+      'Every patient’s diabetes journey is different. We focus on individualized treatment plans based on health goals, lifestyle, risk factors, and clinical needs.',
+  },
+  {
+    title: 'Complication prevention through early screening',
+    description:
+      'We emphasize proactive assessment for diabetes-related complications through foot evaluation, neuropathy screening, vascular assessment, and cardiovascular risk evaluation.',
+  },
+  {
+    title: 'Evidence-based and transparent care',
+    description:
+      'We believe in clear communication, appropriate treatment decisions, and timely referrals whenever specialized care is required.',
+  },
+  {
+    title: 'Continuous support beyond consultations',
+    description:
+      'Diabetes is a long-term condition. Our approach focuses on consistent monitoring, education, and helping patients make sustainable health improvements.',
+  },
 ];
 
 export default function About() {
@@ -21,8 +37,8 @@ export default function About() {
       <PageHero
         breadcrumb="About Us"
         eyebrow="About Majid Healthcare"
-        title="A focused family health & diabetes clinic in Kalyan West"
-        description="Majid Healthcare was built around one idea: that a patient's family doctor and their diabetes specialist should, ideally, be the same trusted person."
+        title="Building a Centre of Excellence in Diabetes Care"
+        description="Majid Healthcare is committed to delivering comprehensive diabetes care through clinical expertise, advanced screening, personalized treatment, and a patient-first approach."
       />
 
       <section className="section about-story">
@@ -33,19 +49,27 @@ export default function About() {
           <div className="about-story__content">
             <SectionHeading
               eyebrow="Our Story"
-              title="Built by a physician, for the neighbourhood he practices in"
+              title="A trusted centre for comprehensive diabetes care"
             />
             <p>
-              Majid Healthcare — Family Health &amp; Diabetes Centre operates out of Haji Majid
-              Commercial Complex on Dr. Ambedkar Road, Kalyan West, offering OPD consultations and
-              day-care diagnostic services under the direct care of{' '}
-              <strong>{doctor.name}</strong>.
+              Majid Healthcare was founded with a vision to build a trusted centre dedicated to
+              comprehensive diabetes care and long-term health management. We believe diabetes
+              care goes beyond controlling blood sugar levels — effective management requires
+              early identification of risks, prevention of complications, personalized treatment
+              strategies, and continuous support throughout a patient&apos;s journey.
             </p>
             <p>
-              Rather than positioning itself as a large, multi-department hospital, the clinic
-              stays deliberately focused: everyday family medicine, paired with specialised
-              diabetes management backed by international training. That focus is what lets one
-              physician give consistent, personal attention to every patient who walks in.
+              Led by <strong>{doctor.name}</strong> (MBBS, PGDFM, Fellowship in Diabetology) with
+              over {doctor.experienceYears} years of clinical experience, Majid Healthcare
+              combines clinical expertise with advanced assessment facilities to provide
+              structured, evidence-based diabetes care — including diabetic foot assessment,
+              neuropathy screening, vascular assessment, cardiovascular risk evaluation, and
+              individualized treatment planning.
+            </p>
+            <p>
+              Our vision is to develop Majid Healthcare into a centre of excellence in diabetes
+              care, bringing together expertise, technology, education, and preventive healthcare
+              to help people with diabetes achieve better health outcomes and quality of life.
             </p>
             <div className="about-story__badge">
               <FaMapMarkerAlt aria-hidden="true" />
@@ -59,14 +83,18 @@ export default function About() {
         <div className="container">
           <SectionHeading
             eyebrow="Our Approach"
-            title="What guides how we practice"
+            title="Comprehensive Care. Early Detection. Long-Term Outcomes."
+            description="Diabetes care requires more than medication—it requires understanding the individual, identifying risks early, and preventing complications before they affect quality of life."
             center
           />
           <div className="grid about-approach__grid">
             {approachPoints.map((point) => (
-              <div className="about-approach__item" key={point}>
+              <div className="about-approach__item" key={point.title}>
                 <FaCheckCircle aria-hidden="true" />
-                <p>{point}</p>
+                <div>
+                  <h3>{point.title}</h3>
+                  <p>{point.description}</p>
+                </div>
               </div>
             ))}
           </div>

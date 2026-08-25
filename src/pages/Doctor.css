@@ -50,6 +50,12 @@
   font-size: 0.9rem;
   color: var(--color-primary-600);
   font-weight: 600;
+  margin-bottom: var(--space-2);
+}
+
+.doctor-card__founder {
+  font-size: 0.8rem;
+  color: var(--color-ink-500);
   margin-bottom: var(--space-5);
 }
 

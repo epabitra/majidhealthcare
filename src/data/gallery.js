@@ -1,7 +1,9 @@
-import clinicStorefront from '../assets/images/hero/clinic-storefront.webp';
+import clinicStorefront from '../assets/images/hero/clinic-storefront-front.jpg';
 import storefrontConsultation from '../assets/images/clinic/storefront-consultation.webp';
 import receptionArea from '../assets/images/clinic/reception-waiting-area.webp';
 import patientWaitingArea from '../assets/images/clinic/patient-waiting-area.webp';
+import diabeticFootProcedureRoom from '../assets/images/clinic/diabetic-foot-procedure-room.jpg';
+import dayCareRoom from '../assets/images/clinic/day-care-room.jpg';
 import communityCamp from '../assets/images/gallery/community-health-camp.webp';
 import clinicEvening from '../assets/images/gallery/clinic-entrance-evening.webp';
 import clinicSignage from '../assets/images/gallery/clinic-signage-close.webp';
@@ -18,6 +20,18 @@ export const galleryImages = [
     src: receptionArea,
     category: 'Facility',
     caption: 'Our clean, calm reception and waiting area',
+  },
+  {
+    id: 'diabetic-foot-procedure-room',
+    src: diabeticFootProcedureRoom,
+    category: 'Facility',
+    caption: 'Diabetic foot care procedure area — arterial Doppler, sensory, neuropathy & scanning tests',
+  },
+  {
+    id: 'day-care-room',
+    src: dayCareRoom,
+    category: 'Facility',
+    caption: 'Our Day Care Room for short-stay treatments and procedures',
   },
   {
     id: 'patients-waiting',

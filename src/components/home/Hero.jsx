@@ -2,13 +2,14 @@ import { FaCalendarCheck, FaPhoneAlt, FaCheckCircle } from 'react-icons/fa';
 import Button from '../common/Button';
 import RatingBadge from '../common/RatingBadge';
 import { clinicInfo } from '../../data/clinicInfo';
-import heroImage from '../../assets/images/hero/clinic-storefront.webp';
+import heroImage from '../../assets/images/hero/clinic-storefront-front.jpg';
 import './Hero.css';
 
 const highlights = [
-  'CMC Vellore trained family physician',
-  'UK Fellowship in Diabetology',
-  '9+ years of clinical experience',
+  'Fellowship in Diabetology',
+  'PG Diploma in Family Medicine — CMC Vellore',
+  '9+ Years of Experience',
+  'Advanced Diabetes Complication Screening',
 ];
 
 export default function Hero() {
@@ -19,9 +20,9 @@ export default function Hero() {
           <span className="eyebrow">Family Health &amp; Diabetes Centre · Kalyan West</span>
           <h1>{clinicInfo.tagline}</h1>
           <p className="hero__lead">
-            Consult <strong>Dr. Umair Musaddique Majid</strong> — a CMC Vellore-trained family
-            physician with a UK Fellowship in Diabetology — for everyday family health concerns
-            and dedicated, long-term diabetes care.
+            Led by <strong>Dr. Umair M Majid</strong> (MBBS, PGDFM, Fellowship in Diabetology),
+            providing evidence-based diabetes management with advanced screening for diabetic
+            complications and personalized long-term care.
           </p>
 
           <ul className="hero__highlights">

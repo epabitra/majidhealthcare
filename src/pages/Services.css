@@ -53,6 +53,36 @@
   font-size: 0.94rem;
 }
 
+.service-detail__media {
+  margin-top: var(--space-5);
+}
+
+.service-detail__media img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.service-detail__equipment {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.service-detail__equipment-tag {
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-accent-100);
+  color: var(--color-accent-700);
+  border-radius: var(--radius-pill);
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: var(--font-heading);
+}
+
 @media (max-width: 560px) {
   .service-detail {
     grid-template-columns: auto 1fr;
