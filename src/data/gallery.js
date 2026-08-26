@@ -1,7 +1,7 @@
 import clinicStorefront from '../assets/images/hero/clinic-storefront-front.jpg';
 import storefrontConsultation from '../assets/images/clinic/storefront-consultation.webp';
 import receptionArea from '../assets/images/clinic/reception-waiting-area.webp';
-import patientWaitingArea from '../assets/images/clinic/patient-waiting-area.webp';
+// import patientWaitingArea from '../assets/images/clinic/patient-waiting-area.webp';
 import diabeticFootProcedureRoom from '../assets/images/clinic/diabetic-foot-procedure-room.jpg';
 import dayCareRoom from '../assets/images/clinic/day-care-room.jpg';
 import communityCamp from '../assets/images/gallery/community-health-camp.webp';
@@ -33,12 +33,12 @@ export const galleryImages = [
     category: 'Facility',
     caption: 'Our Day Care Room for short-stay treatments and procedures',
   },
-  {
-    id: 'patients-waiting',
-    src: patientWaitingArea,
-    category: 'Facility',
-    caption: 'Patients at our clinic during OPD hours',
-  },
+  // {
+  //   id: 'patients-waiting',
+  //   src: patientWaitingArea,
+  //   category: 'Facility',
+  //   caption: 'Patients at our clinic during OPD hours',
+  // },
   {
     id: 'storefront-consultation',
     src: storefrontConsultation,

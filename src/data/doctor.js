@@ -6,7 +6,7 @@ export const doctor = {
   experienceYears: 9,
   registrationNo: '2017/05/1989',
   credentials: [
-    { short: 'MBBS', full: 'MBBS — Mumbai University' },
+    { short: 'MBBS', full: 'MBBS — MGM Institute, Navi Mumbai' },
     { short: 'PGDFM', full: 'Post Graduate Diploma in Family Medicine (PGDFM) — CMC Vellore' },
     {
       short: 'Fellowship in Diabetology',
@@ -18,7 +18,7 @@ export const doctor = {
     },
     {
       short: 'ACIDC',
-      full: 'ACIDC — Certificate Course in Diabetes (American Diabetes Association)',
+      full: 'ACIDC — Advance Certificate in Diabetes Complications',
     },
     {
       short: 'FCPM',
@@ -27,7 +27,7 @@ export const doctor = {
   ],
   bio: [
     'Dr. Umair Musaddique Majid is the founder and lead physician at Majid Healthcare – Family Health & Diabetes Centre, with over 9 years of clinical experience in diabetes management, chronic disease care, and preventive healthcare.',
-    'After completing his MBBS in Mumbai, he pursued a Post Graduate Diploma in Family Medicine from CMC Vellore, gaining a strong foundation in comprehensive patient care. He further developed his expertise in diabetes management through a Fellowship in Diabetology from the Royal Liverpool Academy, UK.',
+    'After completing his MBBS from MGM Institute, Navi Mumbai, he pursued a Post Graduate Diploma in Family Medicine from CMC Vellore, gaining a strong foundation in comprehensive patient care. He further developed his expertise in diabetes management through a Fellowship in Diabetology from the Royal Liverpool Academy, UK.',
     'His approach focuses on comprehensive diabetes care that goes beyond blood sugar control—emphasising early detection of complications, personalised treatment strategies, lifestyle modification, and long-term health improvement.',
     'Through Majid Healthcare, Dr. Umair M Majid aims to build a trusted centre for diabetes care, combining clinical expertise with advanced assessment facilities to help patients prevent complications and achieve better outcomes.',
   ],

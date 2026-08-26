@@ -1,4 +1,4 @@
-import { FaUserMd, FaGraduationCap, FaStethoscope, FaCalendarCheck, FaPhoneAlt } from 'react-icons/fa';
+import { FaGraduationCap, FaStethoscope, FaCalendarCheck, FaPhoneAlt } from 'react-icons/fa';
 import PageHero from '../components/common/PageHero';
 import SectionHeading from '../components/common/SectionHeading';
 import Button from '../components/common/Button';
@@ -6,6 +6,7 @@ import CtaBanner from '../components/common/CtaBanner';
 import { doctor } from '../data/doctor';
 import { clinicInfo } from '../data/clinicInfo';
 import careExperienceImg from '../assets/images/clinic/day-care-room.jpg';
+import doctorPhoto from '../assets/images/doctor/dr-umair-majid.jpg';
 import './Doctor.css';
 
 export default function Doctor() {
@@ -23,7 +24,7 @@ export default function Doctor() {
           <div className="doctor-profile__sidebar">
             <div className="doctor-card">
               <div className="doctor-card__avatar">
-                <FaUserMd aria-hidden="true" />
+                <img src={doctorPhoto} alt={doctor.name} />
               </div>
               <h3>{doctor.name}</h3>
               <p className="doctor-card__title">{doctor.title}</p>

@@ -25,9 +25,10 @@ export default function Footer() {
               <FaFacebookF />
             </a>
             <a
-              href="#"
+              href={clinicInfo.social.instagram}
               aria-label="Majid Healthcare on Instagram"
-              onClick={(e) => e.preventDefault()}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FaInstagram />
             </a>

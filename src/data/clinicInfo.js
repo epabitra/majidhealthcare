@@ -12,6 +12,9 @@ export const clinicInfo = {
   phoneDisplay: '099304 60918',
   phoneHref: 'tel:+919930460918',
   email: null, // Not publicly available — confirm with client
+  social: {
+    instagram: 'https://www.instagram.com/drmajidhealthcare',
+  },
   address: {
     line1: '003, Haji Majid Commercial Complex',
     line2: 'Dr. Ambedkar Road, Kalyan West',
