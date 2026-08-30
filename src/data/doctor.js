@@ -1,7 +1,7 @@
 export const doctor = {
   slug: 'dr-umair-musaddique-majid',
   name: 'Dr. Umair Musaddique Majid',
-  title: 'Diabetes Physician & Lifestyle Disease Specialist',
+  title: 'Physician & Diabetologist',
   founderTitle: 'Founder & Lead Physician — Majid Healthcare, Family Health & Diabetes Centre',
   experienceYears: 9,
   registrationNo: '2017/05/1989',
